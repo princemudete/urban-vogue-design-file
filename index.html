@@ -21,53 +21,68 @@
     <!-- === TOP CONTACT BAR === -->
 
     <!-- === Header / Navigation === -->
-    <div class="topbar">
-        <span>Contact</span>
-        <span>Call: 0773 885 199</span>
-    </div>
-
-    <header class="site-header">
-        <div>
-            <div class="header-icons">
-                <img src="assets/icon-heart.png" alt="Wishlist" />
-                <img src="assets/icon-cart.png" alt="Cart" />
-                <img src="assets/icon-user.png" alt="Account" />
-            </div>
-
-            <nav class="nav container">
-                <img src="assets/logo.png" alt="Urban Vogue Logo" width="350" />
-                <button class="burger" aria-label="Menu">&#9776;</button>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Collection</a></li>
-                </ul>
-            </nav>
-    </header>
 
     <!-- === Hero Section === -->
-    <section class="hero">
-        <div class="container hero">
-            <div class="hero-text">
-                <h1 class="hero-title">Clothes for the Mordern</h1>
-                <p class="hero-tag">All Luxury Sale</p>
-                <p>Wearing black because it's always a good idea. And it's slimming.</p>
-                <div class="hero-btns">
-                    <button class="btn btn-primary">Buy Product</button>
-                    <button class="btn btn-outline">Explore Product</button>
-                </div>
-                <img src="assets/hero-models.png" alt="Hero Models">
-            </div>
+    <!-- === HERO SECTION === -->
+    <!-- === HERO SECTION HEADER STYLE === -->
+    <section class="hero-section">   
+    </section><div class="container hero-header">
+    
+    <!-- Centered Logo and Navigation -->
+    <div class="hero-nav">
+      <img src="assets/logo.png" alt="Urban Vogue Logo" class="hero-logo">
+      <nav class="hero-menu">
+        <ul class="hero-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Collection</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Right: Contact and Icons -->
+    <div class="hero-contact-icons">
+        <div class="contact-info">
+            <span>Call: 0773 885 199</span>
         </div>
-    </section>
+        <div class="hero-icons">
+            <img src="assets/icon-heart.png" alt="Wishlist">
+            <img src="assets/icon-cart.png" alt="Cart">
+            <img src="assets/icon-user.png" alt="User">
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="hero">
+  <div class="container hero-wrapper">
+    <!-- Left Side: Text -->
+    <div class="hero-content">
+      <h1 class="hero-title">CLOTHES<br>FOR THE<br>MODERN</h1>
+      <p class="hero-subtitle">ALL LUXURY SALE</p>
+      <p class="hero-description">Wearing black because it's always a<br> good idea. And it's slimming.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary">Buy Product</button>
+        <button class="btn btn-outline">Explore Product</button>
+      </div>
+    </div>
+
+    <!-- Right Side: Image -->
+    <div class="hero-image">
+      <img src="assets/hero-models.png" alt="Urban Vogue Models">
+    </div>
+  </div>
+</section>
+
 
     <!-- === MOVING MARQUEE STRIP === -->
     <div class="marquee">
-        <span>URBAN VOGUE</span><span>URBAN VOGUE</span><span>URBAN VOGUE</span>
-        <span>URBAN VOGUE</span><span>URBAN VOGUE</span>
+        <span>URBAN VOGUE</span> <span>URBAN VOGUE</span> <span>URBAN VOGUE</span> 
+        <span>URBAN VOGUE</span> <span>URBAN VOGUE</span><span>URBAN VOGUE</span>
+        <span>URBAN VOGUE</span> <span>URBAN VOGUE</span> <span>URBAN VOGUE</span>
     </div>
 
     <!-- === CATEGORY ICONS === -->
@@ -141,36 +156,42 @@
     </section>
 
     <!-- === BLOG SHOWCASE === -->
-    <section class="container">
+    <!-- === OUR BLOG SECTION === -->
+    <section class="container blog-section">
         <h2 class="section-title">Our Blog</h2>
         <div class="blog-grid">
-            <div class="blog-card">
-                <span class="tag">Big Sale</span>
-                <h3>The best collection of the week</h3>
-                <div class="countdown">
-                    <span>148 Day</span>
-                    <span>4 Hrs</span>
-                    <span>15 Mins</span>
-                    <span>25 Sec</span>
-                </div>
-                <img src="assets/blog-sale.jpg" alt="">
-            </div>
+    
+    <!-- BLOG CARD 1: BIG SALE -->
+    <div class="blog-card sale-card">
+      <span class="tag">Big Sale</span>
+      <h3>The Best Collection of the Week</h3>
+      <div class="countdown">
+        <span>148 Day</span>
+        <span>4 Hrs</span>
+        <span>15 Mins</span>
+        <span>25 Sec</span>
+      </div>
+      <img src="assets/blog-sale.jpg" alt="Big Sale Banner">
+    </div>
 
-            <div class="blog-grid">
-                <div class="blog-card">
-                    <span class="tag">30% OFF</span>
-                    <button class="btn btn-primary">CHECK NOW</button>
-                </div>
-                <img src="assets/blog-sale1.jpg" alt="">
-            </div>
+    <!-- BLOG CARD 2: 30% OFF -->
+    <div class="blog-card discount-card">
+      <span class="tag">30% OFF</span>
+      <img src="assets/blog-bag.jpg" alt="Bag Sale">
+      <button class="btn btn-primary">CHECK NOW</button>
+    </div>
 
-            <div class="blog-card">
-                <span class="tag">20% OFF</span>
-                <button class="btn btn-primary">CHECK NOW</button>
-            </div>
-            <img src="assets/blog-sale2.jpg" alt="">
-        </div>
-    </section>
+    <!-- BLOG CARD 3: 20% OFF -->
+    <div class="blog-card discount-card">
+      <span class="tag">20% OFF</span>
+      <img src="assets/blog-pants.jpg" alt="Pants Sale">
+      <button class="btn btn-primary">CHECK NOW</button>
+    </div>
+
+  </div>
+  <h2 class="blog-slogan">WEAR THE BEST</h2>
+</section>
+
 
     <!-- === FOOTER === -->
     <footer>
@@ -200,15 +221,16 @@
             <div>
                 <h4>Follow Us</h4>
                 <ul class="social">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-toutube"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Instagram"</a></li>
                 </ul>
             </div>
 
             <div>
                 <h4>Subscribe</h4>
+                <p>Get E-mail updates about our latest shop and special offers</p>
                 <form class="newsletter">
                     <input type="email" placeholder="Enter your email here" />
                     <button type="submit">Enter</button>
