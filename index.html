@@ -17,16 +17,27 @@
 </head>
 
 <body>
+    <!-- === MINI TOPBAR === -->
+<div class="mini-topbar">
+  <div class="container mini-topbar-inner">
+    
+    <!-- Left: Language and Currency -->
+    <div class="mini-left">
+      <span class="lang">English</span>
+      <span class="currency">USD</span>
+    </div>
 
-    <!-- === TOP CONTACT BAR === -->
+    <!-- Right: Message -->
+    <div class="mini-right">
+      <span>Free delivery on orders over $25</span>
+    </div>
 
-    <!-- === Header / Navigation === -->
+  </div>
+</div>
 
-    <!-- === Hero Section === -->
-    <!-- === HERO SECTION === -->
-    <!-- === HERO SECTION HEADER STYLE === -->
-    <section class="hero-section">   
-    </section><div class="container hero-header">
+<!-- === HERO SECTION HEADER STYLE === -->
+<section class="hero-section">
+ </section><div class="container hero-header">
     
     <!-- Centered Logo and Navigation -->
     <div class="hero-nav">
@@ -45,13 +56,13 @@
 
     <!-- Right: Contact and Icons -->
     <div class="hero-contact-icons">
-        <div class="contact-info">
-            <span>Call: 0773 885 199</span>
-        </div>
         <div class="hero-icons">
             <img src="assets/icon-heart.png" alt="Wishlist">
             <img src="assets/icon-cart.png" alt="Cart">
             <img src="assets/icon-user.png" alt="User">
+        </div>
+         <div class="contact-info">
+            <span>Contact  Call us 0773 885 199</span>
         </div>
     </div>
 </div>
@@ -89,13 +100,13 @@
     <section class="categories">
         <div class="container">
             <ul class="cat-list">
-                <li class="cat-item"><img src="assets/cat-men.png" alt=""><span>Men</span></li>
-                <li class="cat-item"><img src="assets/cat-women.png" alt=""><span>Women</span></li>
-                <li class="cat-item"><img src="assets/cat-watch.png" alt=""><span>Watches</span></li>
-                <li class="cat-item"><img src="assets/cat-bag.png" alt=""><span>Bag</span></li>
-                <li class="cat-item"><img src="assets/cat-shoes.png" alt=""><span>Shoes</span></li>
-                <li class="cat-item"><img src="assets/cat-accessories.png" alt=""><span>Accessories</span></li>
-                <li class="cat-item"><img src="assets/cat-jewellery.png" alt=""><span>Jewellery</span></li>
+                <li class="cat-item"><span>Men</span><img src="assets/cat-men.png" alt=""></li>
+                <li class="cat-item"><span>Women</span><img src="assets/cat-women.png" alt=""></li>
+                <li class="cat-item"><span>Watches</span><img src="assets/cat-watch.png" alt=""></li>
+                <li class="cat-item"><span>Bag</span><img src="assets/cat-bag.png" alt=""></li>
+                <li class="cat-item"><span>Shoes</span><img src="assets/cat-shoes.png" alt=""></li>
+                <li class="cat-item"><span>Accessories</span><img src="assets/cat-accessories.png" alt=""></li>
+                <li class="cat-item"><span>Jewellery</span><img src="assets/cat-jewellery.png" alt=""></li>
             </ul>
         </div>
     </section>
@@ -105,33 +116,11 @@
         <h2 class="section-title">New Arrival</h2>
         <div class="products">
             <!-- Four sample products cards -->
-            <article class="product-card">
-                <div class="product-thumb"><img src="assets/product-dress.png" alt="Black dress"></div>
-                <div class="product-body">
-                    <div class="stars">*****</div>
-                    <p class="price">$150.00<del>200.00</del></p>
-                    <div class="product-actions">
-                        <button class="btn btn-outline">Add Cart</button>
-                        <button class="btn btn-primary">Buy Now</button>
-                    </div>
-                </div>
-            </article>
-
-            <article class="product-card">
-                <div class="product-thumb"><img src="assets/product-shoe.png" alt="Sneakers"></div>
-                <div class="product-body">
-                    <div class="stars">★★★★★</div>
-                    <p class="price">$120.00 <del>160.00</del></p>
-                    <div class="product-actions">
-                        <button class="btn btn-outline">Add Cart</button>
-                        <button class="btn btn-primary">Buy Now</button>
-                    </div>
-                </div>
-            </article>
-
-            <article class="product-card">
-                <div class="product-thumb"><img src="assets/product-blazer.png" alt="Black blazer"></div>
-                <div class="product-body">
+             <article class="product-card">
+                <div class="product-thumb">
+                     <span class="badge now">NOW</span>
+                    <img src="assets/product-blazer.png" alt="Black blazer"></div>
+                    <div class="product-body">
                     <div class="stars">★★★★★</div>
                     <p class="price">$180.00 <del>240.00</del></p>
                     <div class="product-actions">
@@ -142,8 +131,38 @@
             </article>
 
             <article class="product-card">
-                <div class="product-thumb"><img src="assets/product-tshirt.png" alt="T-shirt"></div>
-                <div class="product-body">
+                <div class="product-thumb">
+                    <span class="badge discount">-5%</span>
+                    <img src="assets/product-shoe.png" alt="Sneakers"></div>
+                    <div class="product-body">
+                    <div class="stars">★★★★★</div>
+                    <p class="price">$120.00 <del>160.00</del></p>
+                    <div class="product-actions">
+                        <button class="btn btn-outline">Add Cart</button>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </article>
+
+             <article class="product-card">
+                <div class="product-thumb">
+                    <span class="badge discount">-4%</span>
+                    <img src="assets/product-dress.png" alt="Black dress"></div>
+                    <div class="product-body">
+                    <div class="stars">*****</div>
+                    <p class="price">$150.00<del>200.00</del></p>
+                    <div class="product-actions">
+                        <button class="btn btn-outline">Add Cart</button>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-thumb">
+                    <span class="badge discount">-5%</span>
+                    <img src="assets/product-tshirt.png" alt="T-shirt"></div>
+                    <div class="product-body">
                     <div class="stars">★★★★☆</div>
                     <p class="price">$80.00 <del>100.00</del></p>
                     <div class="product-actions">
@@ -155,23 +174,25 @@
         </div>
     </section>
 
-    <!-- === BLOG SHOWCASE === -->
     <!-- === OUR BLOG SECTION === -->
     <section class="container blog-section">
         <h2 class="section-title">Our Blog</h2>
         <div class="blog-grid">
     
     <!-- BLOG CARD 1: BIG SALE -->
-    <div class="blog-card sale-card">
-      <span class="tag">Big Sale</span>
-      <h3>The Best Collection of the Week</h3>
-      <div class="countdown">
-        <span>148 Day</span>
-        <span>4 Hrs</span>
-        <span>15 Mins</span>
-        <span>25 Sec</span>
-      </div>
-      <img src="assets/blog-sale.jpg" alt="Big Sale Banner">
+    <div class="blog-card">
+        <div class="blog-overlay-group">
+            <span class="blog-overlay">BIG SALE</span> 
+            <h3>The Best Collection of the Week</h3>
+            <div class="countdown">
+                <span>148 Day</span>
+                <span>4 Hrs</span>
+                <span>15 Mins</span>
+                <span>25 Sec</span>
+            </div>
+        </div>
+        <img src="assets/blog-sale.jpg" alt="Big Sale Banner">
+
     </div>
 
     <!-- BLOG CARD 2: 30% OFF -->
@@ -187,9 +208,11 @@
       <img src="assets/blog-pants.jpg" alt="Pants Sale">
       <button class="btn btn-primary">CHECK NOW</button>
     </div>
+    <div class="blog-slogan">WEAR THE BEST</div>
 
   </div>
-  <h2 class="blog-slogan">WEAR THE BEST</h2>
+
+  </div>
 </section>
 
 
@@ -236,6 +259,16 @@
                     <button type="submit">Enter</button>
                 </form>
             </div>
+
+            <!-- === FOOTER SOCIAL ICONS === -->
+            <div class="footer-social">
+  <a href="#"><img src="assets/icon-facebook.png" alt="Facebook"></a>
+  <a href="#"><img src="assets/icon-twitter.png" alt="Twitter"></a>
+  <a href="#"><img src="assets/icon-instagram.png" alt="Instagram"></a>
+  <a href="#"><img src="assets/icon-linkedIn.png" alt="LinkedIn"></a>
+</div>
+
+
         </div>
     </footer>
 
